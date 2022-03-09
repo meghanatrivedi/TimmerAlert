@@ -13,7 +13,9 @@
 		C7BF8D4127D89585005ED939 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7BF8D3F27D89585005ED939 /* Main.storyboard */; };
 		C7BF8D4327D89587005ED939 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7BF8D4227D89587005ED939 /* Assets.xcassets */; };
 		C7BF8D4627D89587005ED939 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7BF8D4427D89587005ED939 /* LaunchScreen.storyboard */; };
-		C7BF8D4F27D895F1005ED939 /* EditAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7BF8D4E27D895F1005ED939 /* EditAlertViewController.swift */; };
+		C7BF8D5627D897B9005ED939 /* Alertscell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7BF8D5427D897B9005ED939 /* Alertscell.swift */; };
+		C7BF8D5727D897B9005ED939 /* Alertscell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C7BF8D5527D897B9005ED939 /* Alertscell.xib */; };
+		C7BF8D5A27D89DAA005ED939 /* EditAlertVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7BF8D5927D89DAA005ED939 /* EditAlertVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +27,9 @@
 		C7BF8D4227D89587005ED939 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C7BF8D4527D89587005ED939 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C7BF8D4727D89587005ED939 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C7BF8D4E27D895F1005ED939 /* EditAlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditAlertViewController.swift; sourceTree = "<group>"; };
+		C7BF8D5427D897B9005ED939 /* Alertscell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alertscell.swift; sourceTree = "<group>"; };
+		C7BF8D5527D897B9005ED939 /* Alertscell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Alertscell.xib; sourceTree = "<group>"; };
+		C7BF8D5927D89DAA005ED939 /* EditAlertVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditAlertVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,7 +46,6 @@
 		C7BF8D2D27D89585005ED939 = {
 			isa = PBXGroup;
 			children = (
-				C7BF8D4E27D895F1005ED939 /* EditAlertViewController.swift */,
 				C7BF8D3827D89585005ED939 /* TimmerAlert */,
 				C7BF8D3727D89585005ED939 /* Products */,
 			);
@@ -66,6 +69,9 @@
 				C7BF8D4227D89587005ED939 /* Assets.xcassets */,
 				C7BF8D4427D89587005ED939 /* LaunchScreen.storyboard */,
 				C7BF8D4727D89587005ED939 /* Info.plist */,
+				C7BF8D5427D897B9005ED939 /* Alertscell.swift */,
+				C7BF8D5527D897B9005ED939 /* Alertscell.xib */,
+				C7BF8D5927D89DAA005ED939 /* EditAlertVC.swift */,
 			);
 			path = TimmerAlert;
 			sourceTree = "<group>";
@@ -129,6 +135,7 @@
 			files = (
 				C7BF8D4627D89587005ED939 /* LaunchScreen.storyboard in Resources */,
 				C7BF8D4327D89587005ED939 /* Assets.xcassets in Resources */,
+				C7BF8D5727D897B9005ED939 /* Alertscell.xib in Resources */,
 				C7BF8D4127D89585005ED939 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -141,8 +148,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				C7BF8D3E27D89585005ED939 /* ViewController.swift in Sources */,
-				C7BF8D4F27D895F1005ED939 /* EditAlertViewController.swift in Sources */,
+				C7BF8D5A27D89DAA005ED939 /* EditAlertVC.swift in Sources */,
 				C7BF8D3A27D89585005ED939 /* AppDelegate.swift in Sources */,
+				C7BF8D5627D897B9005ED939 /* Alertscell.swift in Sources */,
 				C7BF8D3C27D89585005ED939 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
